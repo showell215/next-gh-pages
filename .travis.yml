@@ -3,6 +3,8 @@ if: type = pull_request OR branch = master
 language: node_js
 node_js: '12'
 
+before_deploy:
+  - git fetch
 deploy:
   skip_cleanup: true
   provider: script
