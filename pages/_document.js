@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
         return (
             <html lang='en'>
                 <Head>
-                    <meta charset='utf-8' />
+                    <meta charSet='utf-8' />
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
                     <meta
                         name='viewport'
