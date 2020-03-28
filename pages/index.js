@@ -10,7 +10,7 @@ export default () => (
       <a href="https://venmo.com/?txn=pay&recipients=join%40subpar.biz&amount=40&note=Subpar%20Application%20Fee&audience=public">
         Join us.
       </a>
-      <a href="https://twitter.com/subparr">Follow us.</a>
+      <a href="https://twitter.com/subparr">Follow us...</a>
     </main>
   </>
 );

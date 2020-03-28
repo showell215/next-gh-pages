@@ -6,7 +6,7 @@ node_js: '12'
 deploy:
   skip_cleanup: true
   provider: script
-  script: npm run deploy -- --repo "https://$GH_TOKEN@github.com/$TRAVIS_REPO_SLUG"
+  script: npm run deploy
   on:
     branch: master
 
